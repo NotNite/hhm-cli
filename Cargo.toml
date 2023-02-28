@@ -1,0 +1,16 @@
+[package]
+name = "hhm-cli"
+description = "spin up and down servers because it's funny"
+authors = ["NotNite <hi@notnite.com>"]
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.69"
+clap = { version = "4.1.8", features = ["derive"] }
+comfy-table = "6.1.4"
+hugehugemassive = { git = "https://github.com/NotNite/hugehugemassive.git", version = "0.1.0" }
+nanoid = "0.4.0"
+serde = { version = "1.0.152", features = ["derive"] }
+tokio = { version = "1.25.0", features = ["full"] }
+toml = "0.7.2"
